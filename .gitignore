@@ -1,0 +1,90 @@
+# ==========================================
+# Jupyter Notebook Specifics
+# ==========================================
+# Ignore local checkpoint directories created by Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Ignore Jupyter Lab workspace and state files
+.jupyterlab_workspaces/
+.ipynb_checkpoints
+
+# Ignore exported HTML/PDF formats if you only want to track raw notebooks
+# (Uncomment the lines below if you do not want to track exported formats)
+# *.html
+# *.pdf
+
+# ==========================================
+# Python Byte-compiled / Optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ==========================================
+# Virtual Environments and Packages
+# ==========================================
+# Standard Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Package managers and build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pipenv, Poetry, and Conda files
+# (Note: It is generally recommended to commit Pipfile.lock/poetry.lock,
+# but local configuration files should be ignored)
+.pdm-python
+.python-version
+
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+# Never commit your private keys, passwords, or API tokens
+.env
+.env.local
+.env.*
+*.env
+secrets.json
+
+# ==========================================
+# IDEs and Text Editors
+# ==========================================
+# Visual Studio Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Ignore all CSV files
+*.csv
+
+# Ignore all Excel files
+*.xlsx
+*.xls
+
