@@ -1,0 +1,1 @@
+hello this file for just cheacking the Static working or not.
