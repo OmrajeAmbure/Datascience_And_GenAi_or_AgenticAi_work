@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Prediction</title>
+</head>
+<body>
+
+    <h1>Student Marks Prediction</h1>
+
+    <form action="/predict" method="post">
+
+        <label for="study_hours">Study Hours</label><br><br>
+
+        <input
+            type="number"
+            name="study_hours"
+            id="study_hours"
+            min="0"
+            max="24"
+            step="0.1"
+            required>
+
+        <br><br>
+
+        <button type="submit">Predict Marks</button>
+
+    </form>
+
+    <br>
+
+    {% if prediction_text %}
+        <h2>{{ prediction_text }}</h2>
+    {% endif %}
+
+</body>
+</html>
