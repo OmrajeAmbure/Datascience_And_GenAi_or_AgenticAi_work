@@ -1,0 +1,3 @@
+This first line of wirting file 
+This second line 
+write append new line this text

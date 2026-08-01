@@ -26,8 +26,3 @@ def create_user(payload: User = Body(...)):
     print(payload)
     return {"message": "User created successfully", "user": payload}
 
-@app.post('/posts')
-def create_post(payload: Post = Body(...)):
-    print(payload)
-    return {"message": "Post created successfully", "post": payload}
-
